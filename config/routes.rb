@@ -7,6 +7,8 @@ SampleApp::Application.routes.draw do
   match '/about', to: 'static_pages#about', via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
 
+
+  get "static_pages/help"
   get "static_pages/about"
   get "static_pages/contact"
 
